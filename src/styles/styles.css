@@ -1,0 +1,66 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.card img {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.card {
+	background-color: #1c1c1c;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+	padding: 20px;
+}
+
+h1, h2, h5, p {
+	color: #ffcc00;
+}
+
+.btn-learn-more {
+	background-color: #000000;
+	color: #ffcc00;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.btn-learn-more:hover {
+	background-color: #ffcc00;
+}
+
+.fa-heart {
+	color: rgb(211, 0, 0);
+	font-size: 18px;
+}
+
+.fa-heart-o {
+	color: rgb(129, 129, 129);
+	font-size: 18px;
+}
+
+/* Centralizar a logo */
+.logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.logo {
+	width: 300px; 
+	height: auto; 
+}
+
+
